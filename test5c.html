@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test5c</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="test5c.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>今日中にやること</h1>
+        <div class="time">
+            <!-- タイマーのhtml -->
+        </div>
+
+        <p>
+            <input type="text" id="addToDo">
+            <input class="btn" type="button" id="addBtn" value="追加">
+        </p>
+        <div class="toDoWrapper">
+            <h2>今日はあとはこれをやります。</h2>
+            <div class="listWrapper" id="toDo">
+                <div class="notChecked">test</div>
+            </div>
+        </div>
+
+        <div class="btnWrapper">
+            <div class="btn" id="compBtn">
+                <i class="fa fas fa-arrow-circle-down"></i> 完了
+            </div>
+            <div class="btn" id="backBtn">
+                <i class="fa fas fa-arrow-circle-up"></i> 戻す
+            </div>
+        </div>
+
+        <div class="toDoWrapper">
+            <h2>完了済リスト</h2>
+            <div class="listWrapper" id="comp">
+            </div>
+        </div>
+        <div class="btnWrapper">
+            <div class="btn" id="delToDo">
+                <i class="fa fas fa-trash-alt"></i> 削除
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <script src="test5c.js"></script>
+
+
+</body>
+
+</html>
